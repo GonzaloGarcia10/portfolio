@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gonzalo García — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio profesional de Gonzalo García — Técnico en Desarrollo de Aplicaciones Web. Contacto, habilidades, experiencia y proyectos.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <h1>Gonzalo García</h1>
+        <p class="subtitle">Técnico superior en Desarrollo de Aplicaciones Web</p>
+      </div>
+      <nav class="top-nav">
+        <a class="nav-link" href="#about">Sobre mí</a>
+        <a class="nav-link" href="#projects">Proyectos</a>
+        <a class="nav-link" href="#experience">Experiencia</a>
+        <a class="nav-link" href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="sidebar">
+      <div class="photo-wrap">
+        <img src="assets/img/foto.png" alt="Foto de Gonzalo García" class="photo">
+      </div>
+      <div class="profile-card">
+        <h2>Gonzalo García</h2>
+        <p class="muted">Técnico en Desarrollo de Aplicaciones Web</p>
+        <a class="btn download" href="assets/CV Gonzalo garcía.pdf" download>Descargar CV</a>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> <a href="mailto:garciavegagonzalo046@gmail.com">garciavegagonzalo046@gmail.com</a></li>
+          <li><strong>Tel:</strong> <a href="tel:+34664069181">+34 664 069 181</a></li>
+          <li><strong>Ubicación:</strong> Jerez de la Frontera, España</li>
+        </ul>
+        <div class="skills-compact">
+          <h4>Habilidades</h4>
+          <div class="skill"><span>HTML/CSS</span><div class="bar"><span style="width:90%"></span></div></div>
+          <div class="skill"><span>JavaScript</span><div class="bar"><span style="width:80%"></span></div></div>
+          <div class="skill"><span>Python / Django</span><div class="bar"><span style="width:70%"></span></div></div>
+          <div class="skill"><span>Docker / Linux</span><div class="bar"><span style="width:70%"></span></div></div>
+        </div>
+      </div>
+      <div class="socials">
+        <a href="#" aria-label="GitHub" class="social">GitHub</a>
+        <a href="#" aria-label="LinkedIn" class="social">LinkedIn</a>
+      </div>
+    </aside>
+
+    <section class="content">
+      <section id="about" class="panel">
+        <h2>Sobre mí</h2>
+        <p>Desarrollo y mantenimiento de aplicaciones web en entornos cliente y servidor. Experiencia con HTML5, CSS3, JavaScript, Python, MySQL y herramientas de administración de sistemas. Busco crear interfaces accesibles, performantes y bien documentadas.</p>
+      </section>
+
+      <section id="projects" class="panel">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Proyecto de ejemplo</h3>
+            <p class="muted">Web app simple con despliegue en Docker y backend en Flask.</p>
+            <div class="project-links"><a href="#">Demo</a> • <a href="#">Código</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="panel">
+        <h2>Experiencia</h2>
+        <div class="job">
+          <h4>Systems Technician — Brutal System (Prácticas)</h4>
+          <span class="date">Mar 2024 - Jun 2024</span>
+          <ul>
+            <li>Administración de servidores Linux, Nginx y Apache.</li>
+            <li>Despliegue con Docker y automatización con Ansible.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education" class="panel two-col">
+        <div>
+          <h3>Formación</h3>
+          <ul>
+            <li>2026 Higher Technician Degree in Web Application Development</li>
+            <li>2024 Technician Degree in Microcomputer Systems and Networks</li>
+            <li>2022 Compulsory Secondary Education Degree</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Certificados</h3>
+          <ul>
+            <li>B Driver License (Spain) — 2025</li>
+            <li>B1 Preliminary English Test Cambridge — 2023</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="panel">
+        <h2>Contacto</h2>
+        <p>¿Quieres ponerte en contacto? Escríbeme un email o llámame. También puedo compartir mi CV en PDF si lo deseas.</p>
+        <div class="contact-cards">
+          <div class="card">
+            <strong>Email</strong>
+            <a href="mailto:garciavegagonzalo046@gmail.com">garciavegagonzalo046@gmail.com</a>
+          </div>
+          <div class="card">
+            <strong>Teléfono</strong>
+            <a href="tel:+34664069181">+34 664 069 181</a>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Gonzalo García — Portfolio • Hecho con ❤️</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
